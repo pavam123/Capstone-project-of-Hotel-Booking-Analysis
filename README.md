@@ -3,7 +3,7 @@
 **Objective:**
 Our primary goal is to conduct EDA on the provided dataset and derive valuable conclusions about broad hotel booking trends and how various factors interact to affect hotel bookings.
 
-Dataset:
+**Dataset:**
  We get a dataset of hotel reservations. A city hotel and a resort hotel's reservations are included in this dataset. It has the following features:
  - hotel: Name of hotel ( City or Resort)
  - is_canceled: Whether the booking is canceled or not (0 for no canceled and 1 for canceled)
@@ -40,7 +40,7 @@ Dataset:
  - reservation_status_date: Date of making reservation status.
 Total 119390 rows and 32 columns in dataset
 
-Data Cleaning and Feature Engineering:
+**Data Cleaning and Feature Engineering:**
  [1] Removing Duplicate Values
  - Rows that were duplicates were removed.
  [2] Handling Null / Missing Values
@@ -88,7 +88,8 @@ Data Cleaning and Feature Engineering:
  - Kdeplot
  - Heatmap
  - Pairplot
-Univariate Analysis
+   
+**Univariate Analysis:**
  performed univariate analysis and reached the following conclusions:
  - A city hotel was most preferred by 61.07 percent of customers over a resort.
  - 72.48% of bookings are not cancelled. Almost one-third of all reservations are canceled. 
@@ -105,7 +106,8 @@ Univariate Analysis
  - 70% chance that bookings will not be cancelled by customers.
  - Reserved rooms were not assigned to 15% of customers. Ensure that customers receive the rooms they have reserved.
  - Reservations were often made for two people. 10% or so of guests brought their families. Few bring their families with them. Offer family-friendly discounts to encourage reservations for family and business events.
-Bivariate Analysis
+
+**Bivariate Analysis:**
  performed bivariate analysis and reached the following conclusions:
  - The inability to assign a reserved room to a customer is not grounds for cancellation
  - Less lead time means fewer cancellations. Booking cancellations are not caused by a longer Lead time.
@@ -124,7 +126,8 @@ Bivariate Analysis
  - Agent nummber 9 made most number of bookings.
  - Longer waiting period is not a reason for booking cancellation.
  - People were consistently interested in booking rooms in advance in 2015, 2016, and 2017.
-Conclusion
+
+**Conclusion:**
  - The top country with the most number of bookings is PRT, and the number one agent with the most number of bookings is 9. 
  - Customers favored city hotels more than resort hotels by a margin of 61.07 percent.
  - One of the four reservations is canceled.
