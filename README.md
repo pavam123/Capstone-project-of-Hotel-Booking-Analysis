@@ -4,6 +4,7 @@
 Our primary goal is to conduct EDA on the provided dataset and derive valuable conclusions about broad hotel booking trends and how various factors interact to affect hotel bookings.
 
 **Dataset:**
+
  We get a dataset of hotel reservations. A city hotel and a resort hotel's reservations are included in this dataset. It has the following features:
  - hotel: Name of hotel ( City or Resort)
  - is_canceled: Whether the booking is canceled or not (0 for no canceled and 1 for canceled)
@@ -65,6 +66,7 @@ Total 119390 rows and 32 columns in dataset
  - The variable "lead_time_category" created from the variable "lead_time."
    
 #**Exploratory Data Analysis**:
+
  performed EDA and tried answering the following questions:
  - [1] Is not having a reserved room assigned a reason for booking cancellations?
  - [2]  Is the high lead_time a reason for booking cancellations?
@@ -95,6 +97,7 @@ Total 119390 rows and 32 columns in dataset
  - Pairplot
    
 **Univariate Analysis:**
+
  performed univariate analysis and reached the following conclusions:
  - A city hotel was most preferred by 61.07 percent of customers over a resort.
  - 72.48% of bookings are not cancelled. Almost one-third of all reservations are canceled. 
@@ -113,6 +116,7 @@ Total 119390 rows and 32 columns in dataset
  - Reservations were often made for two people. 10% or so of guests brought their families. Few bring their families with them. Offer family-friendly discounts to encourage reservations for family and business events.
 
 **Bivariate Analysis:**
+
  performed bivariate analysis and reached the following conclusions:
  - The inability to assign a reserved room to a customer is not grounds for cancellation
  - Less lead time means fewer cancellations. Booking cancellations are not caused by a longer Lead time.
@@ -133,6 +137,7 @@ Total 119390 rows and 32 columns in dataset
  - People were consistently interested in booking rooms in advance in 2015, 2016, and 2017.
 
 **Conclusion:**
+
  - The top country with the most number of bookings is PRT, and the number one agent with the most number of bookings is 9. 
  - Customers favored city hotels more than resort hotels by a margin of 61.07 percent.
  - One of the four reservations is canceled.
