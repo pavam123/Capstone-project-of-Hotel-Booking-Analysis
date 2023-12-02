@@ -1,6 +1,6 @@
 # Capstone-project-of-Hotel-Booking-Analysis
 
-Objective:
+#**Objective:**
 Our primary goal is to conduct EDA on the provided dataset and derive valuable conclusions about broad hotel booking trends and how various factors interact to affect hotel bookings.
 
 Dataset:
@@ -40,7 +40,7 @@ Dataset:
  - reservation_status_date: Date of making reservation status.
 Total 119390 rows and 32 columns in dataset
 
-Data Cleaning and Feature Engineering
+Data Cleaning and Feature Engineering:
  [1] Removing Duplicate Values
  - Rows that were duplicates were removed.
  [2] Handling Null / Missing Values
@@ -58,25 +58,26 @@ Data Cleaning and Feature Engineering
  - From variables "children" and "babies," a new "total_children" variable is created by adding both of them.
  - The variable "total_people" used to create "guest_category."
  - The variable "lead_time_category" created from the variable "lead_time."
-Exploratory Data Analysis
+ - 
+#**Exploratory Data Analysis**:
  performed EDA and tried answering the following questions:
- - 1] Is not having a reserved room assigned a reason for booking cancellations?
- - 2]  Is the high lead_time a reason for booking cancellations?
- - 3] How many people are reservations made for?
- - 4] Which hotel type has the most advanced reservations?
- - 5] Which distribution channels have the most cancellations of bookings?
- - 6] Which market segment is most used for booking hotels, and which market segment bookings are most canceled?
- - 7]  Which room generates a higher ADR?
- - 8]  Which hotel type is the busiest?
- - 9] Which month is the busiest for hotels?
- - 10]  Which customer type generates more revenue in terms of hotel types and customer types?
- - 11] In terms of hotel types, how many parking spaces are most frequently requested by customers?
- - 12]  What is the most common number of nights booked by customers?
- - 13] What is the most common number of special requests made by customers, and what kind of customer are they?
- - 14] Is the ADR affected by the hotel not giving a reserved room?
- - 15] The majority of bookings were made for how many people, and the majority of cancellations of bookings were made for how many people?
- - 16] Which country makes the most reservations, and which agent makes the most bookings?
- - 17] Does a longer waiting period cause the cancellation of bookings?
+ - [1] Is not having a reserved room assigned a reason for booking cancellations?
+ - [2]  Is the high lead_time a reason for booking cancellations?
+ - [3] How many people are reservations made for?
+ - [4] Which hotel type has the most advanced reservations?
+ - [5] Which distribution channels have the most cancellations of bookings?
+ - [6] Which market segment is most used for booking hotels, and which market segment bookings are most canceled?
+ - [7]  Which room generates a higher ADR?
+ - [8]  Which hotel type is the busiest?
+ - [9] Which month is the busiest for hotels?
+ - [10]  Which customer type generates more revenue in terms of hotel types and customer types?
+ - [11] In terms of hotel types, how many parking spaces are most frequently requested by customers?
+ - [12]  What is the most common number of nights booked by customers?
+ - [13] What is the most common number of special requests made by customers, and what kind of customer are they?
+ - [14] Is the ADR affected by the hotel not giving a reserved room?
+ - [15] The majority of bookings were made for how many people, and the majority of cancellations of bookings were made for how many people?
+ - [16] Which country makes the most reservations, and which agent makes the most bookings?
+ - [17] Does a longer waiting period cause the cancellation of bookings?
 
  These following graphs and plots were primarily created using Matplotlib and the Seaborn package.
  - Count plot
