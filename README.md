@@ -1,6 +1,6 @@
 # Capstone-project-of-Hotel-Booking-Analysis
 
-#**Objective:**
+**Objective:**
 Our primary goal is to conduct EDA on the provided dataset and derive valuable conclusions about broad hotel booking trends and how various factors interact to affect hotel bookings.
 
 Dataset:
